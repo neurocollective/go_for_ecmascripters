@@ -8,4 +8,4 @@
 - structs
 - pointers
 - method receivers
-- (a library)
+- https://github.com/neurocollective/go_chainable
