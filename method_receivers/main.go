@@ -8,9 +8,9 @@ type Person struct {
 }
 
 func (p *Person) Introduce() {
-	personObject := *p
-	first := personObject.FirstName
-	last := personObject.LastName
+	personStruct := *p
+	first := personStruct.FirstName
+	last := personStruct.LastName
 	fmt.Println("Hello, I am", first, last)
 }
 
